@@ -5,6 +5,10 @@ module.exports = {
    },
    env:{
        node:true
+   },
+   rules:{
+       quotes:['error','single', {"avoid-Escape":true}],
+       'comma-dangle': [​'error'​, ​'always-multiline'​],
    }
        
 }
